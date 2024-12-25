@@ -1,5 +1,7 @@
 # SkillChronicle: A Personal Learning Tracker
 #### Video Demo:  https://youtu.be/01fQq6_JEEE
+[![SkillChronicle Demo](https://img.youtube.com/vi/01fQq6_JEEE/0.jpg)](https://youtu.be/01fQq6_JEEE)
+
 
 SkillChronicle is a web-based application designed to help users set, track, and achieve their learning goals. Whether you're learning a new language, mastering coding, or pursuing any other skill, SkillChronicle provides an organized way to manage your progress.
 
