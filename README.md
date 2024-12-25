@@ -1,5 +1,5 @@
 # SkillChronicle: A Personal Learning Tracker
-#### Video Demo:  https://youtu.be/01fQq6_JEEE
+#### Video Demo:
 [![SkillChronicle Demo](https://img.youtube.com/vi/01fQq6_JEEE/0.jpg)](https://youtu.be/01fQq6_JEEE)
 
 
