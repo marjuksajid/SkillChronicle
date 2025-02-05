@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Progress - SkillChronicle{% endblock %}
+
+{% block content %}
+    <h1>Add Progress</h1>
+    <form action="/add_progress" method="post">
+        <div class="mb-3">
+            <label for="progress_detail" class="form-label">Progress Detail</label>
+            <textarea class="form-control" id="progress_detail" name="progress_detail" required></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="goal_id" class="form-label">Goal ID</label>
+            <input type="number" class="form-control" id="goal_id" name="goal_id" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Progress</button>
+    </form>
+    <br>
+    <a href="/view">Back to View Data</a>
+{% endblock %}

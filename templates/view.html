@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}View Data - SkillChronicle{% endblock %}
+
+{% block content %}
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in skills %}
+            <li>{{ skill.name }}: {{ skill.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Goals</h2>
+    <ul>
+        {% for goal in goals %}
+            <li>{{ goal.id }} {{ goal.title }}: {{ goal.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Progresses</h2>
+    <ul>
+        {% for progress in progresses %}
+            <li>{{ progress.id }} - {{ progress.description }} ({{ progress.date }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
