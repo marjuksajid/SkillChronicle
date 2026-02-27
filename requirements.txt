@@ -4,6 +4,7 @@ Flask
 Flask-SQLAlchemy
 flask-session
 greenlet
+gunicorn
 itsdangerous
 Jinja2
 MarkupSafe
